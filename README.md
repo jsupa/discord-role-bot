@@ -1,5 +1,3 @@
-# discord-role-bot
-
 # discord-role-bot <img src="https://visitor-badge.laobi.icu/badge?page_id=jsupa.discord-role-bot">
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y246Y0V)
