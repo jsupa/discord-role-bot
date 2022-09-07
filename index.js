@@ -34,7 +34,7 @@ config.forEach((reaction, index) => {
 
     const { guild } = message
     const member = guild.members.cache.get(user.id)
-    const roleId = reaction.reaction.find(role => role.emoji_id === _emoji.id).role_id
+    const roleId = reaction.reaction.find(role => role.emoji_id === _emoji.id)?.role_id
 
     if (!roleId) return
 
@@ -58,7 +58,7 @@ config.forEach((reaction, index) => {
 
     const { guild } = message
     const member = guild.members.cache.get(user.id)
-    const roleId = reaction.reaction.find(role => role.emoji_id === _emoji.id).role_id
+    const roleId = reaction.reaction.find(role => role.emoji_id === _emoji.id)?.role_id
 
     if (!roleId) return
 
