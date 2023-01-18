@@ -13,7 +13,7 @@ Discord reaction role bot / multiple reaction / multiple messages
 install 
 ```sh
 $ git clone https://github.com/jsupa/discord-role-bot
-$ cd crypto-history
+$ cd discord-role-bot
 $ npm i --production
 $ set -a; source app.env; set +a
 $ npm start
